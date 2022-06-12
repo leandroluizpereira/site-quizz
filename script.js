@@ -10,7 +10,7 @@ function mostraquestao(q){
 
     let alts = document.querySelectorAll('alternativa');
 
- alts.forEach(function(element,index) {
+ alts.forEach(function(element,index){
         element.textContent = q.alternativas[index];
     });
 }
